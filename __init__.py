@@ -54,7 +54,7 @@ class ItsmUserSkill(MycroftSkill):
     def handle_itsm_user_intent(self, message):
         url = 'https://dev22921.service-now.com/api/now/table/sys_user/66e1f49edb5d13006b72712ebf9619c2?sysparm_display_value=true&sysparm_exclude_reference_link=true&sysparm_fields=name'
         user = '531834'
-        pwd = 'Anita!2345'
+        pwd = 'Welcome!2345'
         headers = {"Content-Type":"application/json","Accept":"application/json"}
         # Do the HTTP request
         response = requests.get(url, auth=(user, pwd), headers=headers )
